@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Command TV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Final draft -->
+    <div class="container">
+      <div class="left_section">
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-item">Guidelines</li>
+            <div class="navigation-link-container">
+              <a href="#" data-page="typography" class="navigation-link"
+                >Typography</a
+              >
+              <a href="#" data-page="color" class="navigation-link">Color</a>
+              <a href="#" data-page="page-layouts" class="navigation-link"
+                >Page Layouts</a
+              >
+              <a href="#" data-page="data-visualization" class="navigation-link"
+                >Data Visualization</a
+              >
+            </div>
+            <li class="navigation-item">Components</li>
+            <div class="navigation-link-container">
+              <a href="#" data-page="buttons" class="navigation-link"
+                >Buttons</a
+              >
+              <a href="#" data-page="footer" class="navigation-link">Footer</a>
+              <a href="#" data-page="header" class="navigation-link">Header</a>
+              <a href="#" data-page="text-input" class="navigation-link"
+                >Text Input</a
+              >
+              <a href="#" data-page="modals" class="navigation-link">Modals</a>
+              <a href="#" data-page="sidebar" class="navigation-link"
+                >Sidebar</a
+              >
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="right_section">
+        <header class="header">
+          <div class="header-left">
+            <img class="logo" src="img/CTV.png" alt="logo" />
+            <span class="title">Command TV</span>
+          </div>
+          <div class="hamburger">
+            <span></span>
+          </div>
+        </header>
+
+        <!-- HERE GO OUR PAGES -->
+
+        <!-- Typography Page -->
+        <div data-page="typography" class="page">
+          <h1>Typography</h1>
+          <p class="paragraph page-description">
+            This section describes the fonts that we use in our dashboard,
+            different typography elements, their sizing and styling.
+          </p>
+
+          <h2>Font Family</h2>
+          <div class="font-family-container">
+            <div class="font-family">
+              <span id="inter-text">Inter</span>
+              <span id="aref-text">Aref Ruqaa</span>
+            </div>
+            <div class="font-family-description">
+              <p class="paragraph description">
+                In our dashboard we use 2 Fonts - Inter and Aref Raqaa. The
+                first one, being more strict and readable, is used in paragraphs
+                and paragraphs. The latter one is used to display data in
+                charts.
+              </p>
+            </div>
+          </div>
+          <h2>Type Scale</h2>
+          <p class="paragraph page-description">
+            Below are presented type scales for all the headings and paragraphs
+            that we use in the dashboard. All headings are used in order to
+            highlight their sections, going from the highest importance to the
+            lowest.
+          </p>
+
+          <!-- Here is gonna be type scale -->
+          <div class="typescale-container">
+            <div class="typescale-item">
+              <div class="typescale-size">
+                <h1>Heading One</h1>
+              </div>
+              <div class="typescale-type">
+                <p class="paragraph">46px Inter Bold</p>
+              </div>
+            </div>
+
+            <div class="typescale-item">
+              <div class="typescale-size">
+                <h2>Heading Two</h2>
+              </div>
+              <div class="typescale-type">
+                <p class="paragraph">38px Inter Bold</p>
+              </div>
+            </div>
+
+            <div class="typescale-item">
+              <div class="typescale-size">
+                <h3>Heading Three</h3>
+              </div>
+              <div class="typescale-type">
+                <p class="paragraph">30px Inter Bold</p>
+              </div>
+            </div>
+
+            <div class="typescale-item">
+              <div class="typescale-size">
+                <h4>Heading Four</h4>
+              </div>
+              <div class="typescale-type">
+                <p class="paragraph">26px Inter Bold</p>
+              </div>
+            </div>
+
+            <div class="typescale-item">
+              <div class="typescale-size">
+                <p class="paragraph">Paragraph</p>
+              </div>
+              <div class="typescale-type">
+                <p class="paragraph">20px Inter Regular</p>
+              </div>
+            </div>
+
+            <div class="typescale-item">
+              <div class="typescale-size">
+                <p class="aref">Chart Description</p>
+              </div>
+              <div class="typescale-type">
+                <p class="paragraph">20px Aref Ruqaa Regular</p>
+              </div>
+            </div>
+          </div>
+          <h2>Special Characters</h2>
+          <p class="paragraph page-description">
+            Here is a list of special characters in both fonts that we use.
+          </p>
+
+          <div class="special-chars">
+            <div class="typescale-item">
+              <div class="typescale-size">
+                <p class="aref">0123456789!@#$%^&*(){}”:;,.?/></p>
+              </div>
+              <div class="typescale-type">
+                <p class="paragraph">Inter Regular</p>
+              </div>
+            </div>
+            <div class="typescale-item">
+              <div class="typescale-size">
+                <p class="aref">0123456789!@#$%^&*(){}”:;,.?/></p>
+              </div>
+              <div class="typescale-type">
+                <p class="paragraph">Aref Ruqaa Regular</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colors Page -->
+        <div data-page="color" class="page">
+          <h1>Color</h1>
+          <p class="paragraph page-description">
+            This section illustrates the colors we use on our dashboard.
+          </p>
+
+          <!-- <h1>Canonical Colours</h1> -->
+          <div class="colors-container">
+            <div class="color-wrapper">
+              <div class="GreyBox">
+                <div class="color-box" id="BlueGem"></div>
+              </div>
+              <p class="box-description">
+                #Primary<br />
+                Blue Gem<br />
+                Hex-#3B118B<br />
+                RGB-59,17,139<br />
+              </p>
+            </div>
+
+            <div class="color-wrapper">
+              <div class="GreyBox">
+                <div class="color-box" id="RedViolet"></div>
+              </div>
+              <p class="box-description">
+                #Secondary<br />
+                Red Violet<br />
+                Hex-#B61661<br />
+                RGB-182,22,97<br />
+              </p>
+            </div>
+
+            <div class="color-wrapper">
+              <div class="GreyBox">
+                <div class="color-box" id="Strikemaster"></div>
+              </div>
+              <p class="box-description">
+                #Tertiary<br />
+                Strikemaster<br />
+                Hex-#895179<br />
+                RGB-137,81,121<br />
+              </p>
+            </div>
+
+            <div class="color-wrapper">
+              <div class="GreyBox">
+                <div class="color-box" id="Snuff"></div>
+              </div>
+              <p class="box-description">
+                #Tertiary<br />
+                Snuff<br />
+                Hex-#DFD7EF<br />
+                RGB-223,215,239<br />
+              </p>
+            </div>
+
+            <div class="color-wrapper">
+              <div class="GreyBox">
+                <div class="color-box" id="Prim"></div>
+              </div>
+              <p class="box-description">
+                #Tertiary<br />
+                Prim<br />
+                Hex-#F3E2EA<br />
+                RGB-243,226,234<br />
+              </p>
+            </div>
+
+            <div class="color-wrapper">
+              <div class="GreyBox">
+                <div class="color-box" id="DarkGrey"></div>
+              </div>
+              <p class="box-description">
+                #Neutral (text)<br />
+                Dark Grey<br />
+                Hex-#171F27<br />
+                RGB-59,17,139<br />
+              </p>
+            </div>
+
+            <div class="color-wrapper">
+              <div class="GreyBox">
+                <div class="color-box" id="Alabaster"></div>
+              </div>
+              <p class="box-description">
+                #Neutral (background)<br />
+                Alabaster<br />
+                Hex-#FBFBFB<br />
+                RGB-251,251,251<br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page layouts -->
+        <div data-page="page-layouts" class="page">
+          <h1>Page Layouts</h1>
+          <p class="paragraph page-description">
+            This section describes the layouts for our dashboard.
+          </p>
+
+          <h2>Desktop Layout</h2>
+          <p class="paragraph page-description">
+            On the left side we have a Navigation sidebar, which will have the
+            links to different sections of the dashboard. On the right side we
+            have our dashboard's content with data charts. It is a custom grid
+            with multiple charts combined.
+          </p>
+          <div class="layout">
+            <img
+              class="image image-desktop"
+              src="img/layout-desktop.jpg"
+              alt="Desktop Layout"
+            />
+
+            <img src="img/code-layout.png" alt="Code for layout" class="code" />
+          </div>
+
+          <h2>Mobile Layout</h2>
+          <p class="paragraph page-description">
+            The dropdown menu would be located at the top and would open when
+            clicked at the hamburger button. The dropdown will span all the
+            height of the device.
+          </p>
+          <div class="layout">
+            <img
+              class="image image-phone"
+              src="img/layout-phone.jpg"
+              alt="Phone Layout"
+            />
+            <img
+              src="img/layout-phone-menu.jpg"
+              alt="Phone Layout"
+              class="image image-phone"
+            />
+
+            <img
+              src="img/code-mobile-layout.png"
+              alt="Mobile Layout Code"
+              class="code"
+            />
+          </div>
+
+          <h2>Grid Sizes</h2>
+          <p class="paragraph page-description">
+            Below are illustrated different break points for our dashboard. We
+            have 2 main breakpoints at 800px for tablets and smaller laptops and
+            at 400px for mobile devices. On the phones and small tablets the
+            layout realigns to form one column with one chart per row. On the
+            horizontal tablets (and big tablets in vertical mode) we use a 2
+            column grid with 2 big charts per column.
+          </p>
+
+          <div class="layout">
+            <img
+              class="image image-desktop"
+              src="img/layout-grid.jpg"
+              alt="Grid Layout"
+            />
+
+            <img src="img/code-grid.png" alt="Grid Code" class="code" />
+          </div>
+        </div>
+
+        <!-- Data Visualization Page -->
+        <div data-page="data-visualization" class="page">
+          <h1>Data Visualization</h1>
+          <p class="paragraph page-description">
+            This section illustrates different types of charts that we use in
+            our dashboard
+          </p>
+
+          <h2>Bar Chart</h2>
+          <p class="paragraph page-description">
+            We will utilize three types of Bar Charts in our dashboard (normal,
+            stacked and horizontal). As bars’ colors we utilize our primary ones
+            and for the chart’s description we use Aref Ruqaa font.
+          </p>
+
+          <div class="chart-container">
+            <h3>Normal Bar Chart</h3>
+            <p class="paragraph page-description">
+              This bar chart is a multiple-value chart that can be displaying
+              different metrics that compare over time like revenue comparison
+              by month, or new subscribers by year.
+            </p>
+
+            <img
+              src="img/reg-bar-chart.jpg"
+              class="image chart-image"
+              alt="Bar Chart"
+            />
+          </div>
+
+          <div class="chart-container">
+            <h3>Stacked Bar Chart</h3>
+            <p class="paragraph page-description">
+              This stacked bar chart is a multiple-value chart that can be used
+              to display comparison between different products or services over
+              time.
+            </p>
+
+            <img
+              src="img/stacked-bar-chart.jpg"
+              class="image chart-image"
+              alt="Stacked Bar Chart"
+            />
+          </div>
+
+          <div class="chart-container">
+            <h3>Horizontal Bar Chart</h3>
+            <p class="paragraph page-description">
+              This horizontal bar chart is a multiple-value chart that is used
+              to display the same data as a normal bar chart, but in a little
+              different format, with bars going from left to right instead of
+              bottom to top.
+            </p>
+
+            <img
+              src="img/horiz-bar-chart.jpg"
+              class="image chart-image"
+              alt="Horizontal Bar Chart"
+            />
+          </div>
+
+          <h2>Line Graph</h2>
+          <p class="paragraph page-description">
+            We will utilize two types of Line Graphs in our dashboard (normal
+            and stacked).
+          </p>
+
+          <div class="chart-container">
+            <h3>Normal Line Graph</h3>
+            <p class="paragraph page-description">
+              This is a regular Line Graph that illustrates the trends over time
+              for products or services and compares them at the same time.
+            </p>
+
+            <img
+              src="img/reg-line-chart.jpg"
+              class="image chart-image"
+              alt="Line Graph"
+            />
+          </div>
+
+          <div class="chart-container">
+            <h3>Stacked Line Graph</h3>
+            <p class="paragraph page-description">
+              This is a Stacked Line Graph. In this Graph our lines do not
+              intersect and the lines reach a total of 100% of the axis range at
+              each point.
+            </p>
+
+            <img
+              src="img/stacked-line-chart.jpg"
+              class="image chart-image"
+              alt="Stacked Line Graph"
+            />
+          </div>
+
+          <h2>Area Chart</h2>
+          <p class="paragraph page-description">
+            We will utilize two types of Area Charts in our dashboard (normal
+            and stacked).
+          </p>
+
+          <div class="chart-container">
+            <h3>Normal Area Chart</h3>
+            <p class="paragraph page-description">
+              This is a Normal Area Chart. We use it with the same purpose as
+              line-graph, however in this case the area is highlighted.
+            </p>
+
+            <img
+              src="img/reg-area-chart.jpg"
+              class="image chart-image"
+              alt="Area Chart"
+            />
+          </div>
+
+          <div class="chart-container">
+            <h3>Stacked Area Chart</h3>
+            <p class="paragraph page-description">
+              This is a Stacked Area Chart. The difference compared to regular
+              is that there is no intersection between the areas, they stack on
+              top of each other.
+            </p>
+
+            <img
+              src="img/stacked-area-chart.jpg"
+              class="image chart-image"
+              alt="Stacked Area Chart"
+            />
+          </div>
+
+          <h2>Pie Chart</h2>
+          <p class="paragraph page-description">
+            This is a Pie Chart. It is used to display comparison between
+            multiple categories to show how much each contributes to the total
+            result. Here we use a wide-variety of our primary and secondary
+            colors.
+          </p>
+
+          <img
+            src="img/pie-chart.jpg"
+            class="image chart-image"
+            alt="Pie Chart"
+          />
+
+          <h2>Donut Chart</h2>
+          <p class="paragraph page-description">
+            This is a Donut Chart. It is used to display the same data as a pie
+            chart but with a different styling.
+          </p>
+
+          <img
+            src="img/donut-chart.jpg"
+            class="image chart-image"
+            alt="Pie Chart"
+          />
+
+          <h2>Scattered Plot</h2>
+          <p class="paragraph page-description">
+            This Scattered Plot is used to illustrate the general trend among
+            many different categories of products.
+          </p>
+
+          <img
+            src="img/scattered-chart.jpg"
+            class="image chart-image"
+            alt="Scattered Plot"
+          />
+
+          <h2>Single Value Chart</h2>
+          <p class="paragraph page-description">
+            These single value charts are designed to show one key metric and
+            how it changed compared top some recent time.
+          </p>
+
+          <img
+            src="img/single-value-chart.jpg"
+            class="chart-image"
+            alt="Scattered Plot"
+          />
+        </div>
+
+        <!-- Buttons Page -->
+        <div data-page="buttons" class="page">
+          <h1>Buttons</h1>
+          <p class="paragraph page-description">
+            This section describes the various types and styles of buttons we
+            will use in our dashboard. We have three main types of buttons:
+            Primary, Secondary, and Tertiary. These buttons are used for
+            differnt levels of functionality. We also chose corresponding
+            colours and some fun hover effects to keep it simple yet elegant.
+          </p>
+
+          <h2>Button Examples</h2>
+          <div class="buttons-section">
+            <div class="buttons-container">
+              <button class="btn btn-primary" type="button">Primary</button>
+              <button class="btn btn-secondary" type="button">Secondary</button>
+              <button class="btn-tertiary" type="button">Tertiary</button>
+            </div>
+
+            <img src="img/buttons-code.png" alt="Buttons Code" class="code" />
+          </div>
+        </div>
+
+        <!-- Footer Page -->
+        <div data-page="footer" class="page">
+          <h1>Footer</h1>
+          <p class="paragraph page-description">
+            In our footer we decided to leave links to our company's social
+            network accounts. We also have some legal information down there.
+            There is no need to duplicate navigation, since it is on the sidebar
+            and can easily be accessed.
+          </p>
+
+          <div class="footer-container">
+            <!-- <footer class="footer">
+            <div class="footer-socials">
+              <a href="facebook.com" class="social-link">
+                <img src="img/facebook.svg" alt="Facebook Logo" />
+              </a>
+              <a href="instagram.com" class="social-link">
+                <img src="img/instagram.svg" alt="Instagram Logo" />
+              </a>
+              <a href="telegram.com" class="social-link">
+                <img src="img/telegram.svg" alt="Telegram Logo" />
+              </a>
+              <a href="twitter.com" class="social-link">
+                <img src="img/twitter.svg" alt="Twitter Logo" />
+              </a>
+            </div>
+            <p class="footer-title">Command TV</p>
+            <p class="legal">&copy;2022 All rights reserved</p>
+          </footer> -->
+            <img
+              src="img/layout-footer.jpg"
+              alt="Footer Layout"
+              class="image image-footer"
+            />
+
+            <img src="img/footer-code.png" alt="Footer Code" class="code" />
+          </div>
+        </div>
+
+        <!-- Header Page -->
+        <div data-page="header" class="page">
+          <h1>Header</h1>
+          <p class="paragraph page-description">
+            This section describes the look and layout for the header portion of
+            our dashboard. We are keeping it simple and using our branding and
+            colors to speak for themselves. We also will have a hamburger button
+            on the right side of the header for mobile navigation.
+          </p>
+
+          <div class="header-container">
+            <header class="header">
+              <div class="header-left">
+                <img class="logo" src="img/CTV.png" alt="logo" />
+                <span class="title">Command TV</span>
+              </div>
+            </header>
+
+            <img src="img/header-code.png" alt="Header Code" class="code" />
+          </div>
+        </div>
+
+        <!-- Inputs Page -->
+        <div data-page="text-input" class="page">
+          <h1>Inputs</h1>
+          <p class="paragraph page-description">
+            Below are the inputs we will be using. Text inputs, textareas and
+            dropdown menus are utilized. Different color states of the text
+            inputs are unfocused, focused, error and success.
+          </p>
+
+          <div class="inputs-container">
+            <div class="input-fields-left">
+              <input
+                type="text"
+                class="input-field input-field-unfocused"
+                placeholder="Unfocused input field"
+              />
+
+              <input
+                type="text"
+                class="input-field input-field-focused"
+                placeholder="Focused input field"
+              />
+
+              <input
+                type="text"
+                class="input-field input-field-error"
+                placeholder="Error input state"
+              />
+
+              <input
+                type="text"
+                class="input-field input-field-success"
+                placeholder="Success input state"
+              />
+
+              <select name="dropdown-example" class="input-dropdown">
+                <option value="dropdown-example-one">Dropdown example</option>
+                <option value="dropdown-example-one">
+                  Dropdown example one
+                </option>
+                <option value="dropdown-example-two">
+                  Dropdown example two
+                </option>
+                <option value="dropdown-example-three">
+                  Dropdown example three
+                </option>
+              </select>
+            </div>
+
+            <div class="input-fields-right">
+              <textarea
+                class="textarea-field-unfocused"
+                placeholder="Unfocused textarea"
+                rows="8"
+                cols="35"
+              ></textarea>
+
+              <textarea
+                class="textarea-field-focused"
+                placeholder="Focused textarea"
+                rows="8"
+                cols="35"
+              ></textarea>
+            </div>
+          </div>
+
+          <img
+            class="image code input-image"
+            src="img/code-input.png"
+            alt="Input code"
+          />
+        </div>
+
+        <!-- Sidebar Page -->
+        <div data-page="sidebar" class="page">
+          <h1>Sidebar</h1>
+          <p class="paragraph page-description">
+            This section shows how our sidebar is organized, and how the user
+            can interact with the sidebar. The sidebar will contain all of the
+            navigation links to move around the needed pages for the dashboard.
+            The Sidebar link is an example of the active link, and we have an on
+            hover element to the sidebar. Sidebar will span the whole height on
+            the left side of the page and will occupy around 25% of the whole
+            page width.
+          </p>
+
+          <div class="sidebar-section">
+            <div class="sidebar-container">
+              <nav class="sidebar-links">
+                <ul class="sidebar-list">
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link" href="#">Link 1</a>
+                  </li>
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link" href="#">Link 2</a>
+                  </li>
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link" href="#">Link 3</a>
+                  </li>
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link" href="#">Link 4</a>
+                  </li>
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link active" href="#">Link 5</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <img
+              src="img/code-sidebar.png"
+              class="code image sidebar-image"
+              alt="Sidebar code"
+            />
+          </div>
+        </div>
+
+        <!-- Modals Page -->
+        <div data-page="modals" class="page">
+          <h1>Modals</h1>
+          <p class="paragraph page-description">
+            Modal windows can be used to show the user content whether it is a
+            message, image, or a combination of the two of them in one modal. We
+            utilize them to show anything that is more important than the rest
+            of the screen. Modals are displayed in the center of the page and
+            can be exited by clicking outside of the modal or by clicking on the
+            X button.
+          </p>
+
+          <div class="modals-container">
+            <!-- Trigger/Open The Modal -->
+            <button class="btn btn-secondary btn-modal" id="modal-button1">
+              Open Framed Modal
+            </button>
+
+            <img
+              src="img/code-modal.png"
+              alt="Modal code"
+              class="image code image-modal"
+            />
+          </div>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close" id="closeBtn1">&times;</span>
+              <p>
+                This is an example of a Framed modal this is the default modal
+                we use and it is typically used to show off text in a popup
+                window for easier viewing. You can also click on the X on the
+                ride side of the screen to quickly exit out of the Modal
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
